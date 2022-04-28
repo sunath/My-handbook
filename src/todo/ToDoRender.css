@@ -1,0 +1,59 @@
+:root {
+  --todo__list__accrodion__background__color: #1d2e42;
+  --todo__list__accrodion__header__text__color: #ababab;
+  --todo__item__date__color: #1983cf;
+}
+
+.todo__list__header {
+  text-align: left;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todo__list__header__title > span {
+  color: rgb(144, 202, 249);
+}
+
+.todo__list__accordion__parent {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.todo__list__accordion {
+  background-color: var(--todo__list__accrodion__background__color) !important;
+}
+
+.todo__item__main__title {
+  color: var(--todo__list__accrodion__header__text__color);
+}
+
+.todo__item {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todo__item__header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo__item > div > * {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.todo__item__date {
+  color: var(--todo__item__date__color);
+}
+
+.todo__item__expand__details {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
